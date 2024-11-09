@@ -1,9 +1,8 @@
 var greeting = document.querySelector(".greeting");
 
 function greet() {
-  var name = "Faruq";
-  greeting.textContent = `Hello ${name}`;
+  var userName = "Faruq";
+  greeting.textContent = `Hello ${userName}`;
 }
-
 
 setTimeout(greet, 2000);
